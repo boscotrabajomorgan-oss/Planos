@@ -1,0 +1,524 @@
+<!--survey report-->
+<html>
+<head>
+    <title>Reporte HTML</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+
+<style>
+    p,h1,h2{padding:0px;margin:0px}
+    body{
+        width: 90%;
+        margin: 0px auto;
+        padding: 10px 20px
+    }
+    h1,h2{
+        margin:10px 0px 5px 0px;
+        text-align: center;
+    }
+
+    h3,h4{
+        margin:8px 0px 4px 0px;
+    }
+
+    .app{
+        padding:5px 0px;
+        text-align:right;
+        border-bottom:1px solid #888888;
+    }
+
+    .properties{width: 100%}
+    .properties th { text-align:left; background-color: whitesmoke;  }
+    .properties td { }
+    .properties td, .properties th
+      { padding: 2px 3px 2px 3px; border-bottom: 1px solid #888888; }
+
+     .row td, .row.th{
+        padding: 2px;
+     }
+
+     .row td:nth-child(1){width: 200px}
+     .row td:nth-child(2){font-style:oblique;}
+
+     .coo{
+        margin-top:5px;
+     }
+
+     .b{
+        margin-top:10px;
+     }
+     .pp, .bt{
+        width:55%;
+     }
+
+     .num{text-align:right !important;}
+
+
+</style>
+
+<h1>Reporte HTML</h1>
+<p class="app">Survey Master:&nbsp;V3.4.1.0</p>
+<h3>1. Info Proyecto</h3>
+<table class="row" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td>Proyecto:</td>
+        <td>Ana Sandoval</td>
+    </tr>
+        <tr>
+        <td>Topógrafo:</td>
+        <td>Morgan</td>
+    </tr>
+        <tr>
+        <td>Descripción:</td>
+        <td>venta de una parte indivisa</td>
+    </tr>
+        <tr>
+        <td>Zona:</td>
+        <td>GMT-06:00</td>
+    </tr>
+        <tr>
+        <td>Exportar unidad de longitud:</td>
+        <td>m</td>
+    </tr>
+        <tr>
+        <td>Fecha de creación:</td>
+        <td>2026/01/14 03:38:33 PM</td>
+    </tr>
+    </table>
+
+<h3>2. datum</h3>
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td>datum:</td>
+        <td>UTM_WGS84_Z16</td>
+    </tr>
+        <tr>
+        <td>Usar un modelo geoidal:</td>
+        <td>Sí</td>
+    </tr>
+    </table>
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td>a:</td>
+        <td>6378137.000</td>
+    </tr>
+        <tr>
+        <td>1/f:</td>
+        <td>298.257223563000</td>
+    </tr>
+    </table>
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td>Proyección:</td>
+        <td>UTM</td>
+    </tr>
+        <tr>
+        <td>Zona:</td>
+        <td>16</td>
+    </tr>
+        <tr>
+        <td>Hemisferio:</td>
+        <td>N</td>
+    </tr>
+        <tr>
+        <td>Altura del proyecto:</td>
+        <td>0.000</td>
+    </tr>
+    </table>
+
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td>Usar 7 parámetros:</td>
+        <td>No</td>
+    </tr>
+</table>
+
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td>Corrección de plano:</td>
+        <td>No</td>
+    </tr>
+</table>
+
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td>Ajuste de altura:</td>
+        <td>No</td>
+    </tr>
+</table>
+
+<h3>
+    3. Par de puntos de calibración de sitio
+</h3>
+<table class="properties list pp" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <th>Nombre de punto</th>
+        <th class="num">N/E/Z</th>
+        <th class="num">B/L/H</th>
+        <th class="num">Usar horizontal/<br>H.Resid</th>
+        <th class="num">Usar vertical/<br/>V.Resid</th>
+    </tr>
+
+    <tr>
+        <td colspan="5">No hay datos</td>
+    </tr>
+    
+</table>
+
+
+<h3>4. Punto Con Base</h3>
+<h4 class="b">Base: Base:p1</h4>
+<table class="properties list bt" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <th>ID</th>
+        <th>Nombre de punto/<br>Código</th>
+        <th class="num">N/E/Z</th>
+        <th class="num">B/L/H</th>
+        <th>Formato de corrección</th>
+        <th>Tipo de Coordenadas</th>
+        <th class="num">Desplazamiento<br>N/E/Z</th>
+    </tr>
+    <tr>
+        <td rowspan="3">1</td>
+        <td rowspan="2">Base:p1</td>
+        <td class="num">1319086.208</td>
+        <td class="num">11°55'50.13435"</td>
+        <td rowspan="3">RTCMV3</td>
+        <td rowspan="3">WGS84SPACE</td>
+        <td class="num">0.000</td>
+    </tr>
+    <tr>
+        <td class="num">611898.332</td>
+        <td class="num">-85°58'20.61784"</td>
+        <td class="num">0.000</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td class="num">92.460</td>
+        <td class="num">98.111</td>
+        <td class="num">0.000</td>
+    </tr>
+
+</table>
+
+<h4>Punto topográfico</h4>
+<table class="properties list" cellspacing="0" cellpadding="0" border="0">
+
+    <tr>
+        <th>ID</th>
+        <th>Nombre de punto/<br/>Código</th>
+        <th class="num">N/E/Z</th>
+        <th class="num">B/L/H</th>
+        <th class="num">Precisión<br>N/E/Z</th>
+        <th class="num">A base<br>N/E/Z</th>
+        <th class="num">Nombre Base/<br>A base</th>
+        <th class="num">RMS/<br>PDOP</th>
+        <th class="num">Satélite<br>Máscara de elevación/<br>Número</th>
+        <th class="num">Tipo de solución/<br>Latencia</th>
+        <th class="num">Altura de antena/<br>Hora final</th>
+        <th class="num">Número de mediciones</th>
+    </tr>
+        <tr>
+        <td rowspan="3">2</td>
+        <td rowspan="2">p1</td>
+        <td class="num">1319092.676</td>
+        <td class="num">11°55'50.34254"</td>
+        <td class="num">0.003</td>
+        <td class="num">6.468</td>
+        <td class="num">Base:p1</td>
+        <td class="num">0.004</td>
+        <td class="num">10.0</td>
+        <td class="num">Fijo</td>
+        <td class="num">1.800</td>
+        <td rowspan="3" class="num">5</td>
+    </tr>
+
+    <tr>
+        <td class="num">611917.667</td>
+        <td class="num">-85°58'19.97792"</td>
+        <td class="num">0.003</td>
+        <td class="num">19.334</td>
+        <td class="num" rowspan="2">20.505</td>
+        <td class="num" rowspan="2">0.985</td>
+        <td class="num" rowspan="2">29</td>
+        <td class="num" rowspan="2">1</td>
+        <td class="num" rowspan="2">2026/01/14 04:08:35 PM</td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td class="num">90.272</td>
+        <td class="num">95.923</td>
+        <td class="num">0.005</td>
+        <td class="num">-2.188</td>
+    </tr>
+        <tr>
+        <td rowspan="3">3</td>
+        <td rowspan="2">p2</td>
+        <td class="num">1319088.398</td>
+        <td class="num">11°55'50.20328"</td>
+        <td class="num">0.003</td>
+        <td class="num">2.190</td>
+        <td class="num">Base:p1</td>
+        <td class="num">0.004</td>
+        <td class="num">10.0</td>
+        <td class="num">Fijo</td>
+        <td class="num">1.800</td>
+        <td rowspan="3" class="num">5</td>
+    </tr>
+
+    <tr>
+        <td class="num">611917.970</td>
+        <td class="num">-85°58'19.96841"</td>
+        <td class="num">0.003</td>
+        <td class="num">19.638</td>
+        <td class="num" rowspan="2">19.858</td>
+        <td class="num" rowspan="2">0.948</td>
+        <td class="num" rowspan="2">29</td>
+        <td class="num" rowspan="2">1</td>
+        <td class="num" rowspan="2">2026/01/14 04:08:56 PM</td>
+    </tr>
+
+    <tr>
+        <td>calejon</td>
+        <td class="num">90.491</td>
+        <td class="num">96.142</td>
+        <td class="num">0.005</td>
+        <td class="num">-1.969</td>
+    </tr>
+        <tr>
+        <td rowspan="3">4</td>
+        <td rowspan="2">p3</td>
+        <td class="num">1319087.594</td>
+        <td class="num">11°55'50.17844"</td>
+        <td class="num">0.002</td>
+        <td class="num">1.386</td>
+        <td class="num">Base:p1</td>
+        <td class="num">0.004</td>
+        <td class="num">10.0</td>
+        <td class="num">Fijo</td>
+        <td class="num">1.800</td>
+        <td rowspan="3" class="num">5</td>
+    </tr>
+
+    <tr>
+        <td class="num">611906.746</td>
+        <td class="num">-85°58'20.33956"</td>
+        <td class="num">0.002</td>
+        <td class="num">8.413</td>
+        <td class="num" rowspan="2">8.662</td>
+        <td class="num" rowspan="2">1.005</td>
+        <td class="num" rowspan="2">27</td>
+        <td class="num" rowspan="2">1</td>
+        <td class="num" rowspan="2">2026/01/14 04:10:21 PM</td>
+    </tr>
+
+    <tr>
+        <td>calejon</td>
+        <td class="num">90.935</td>
+        <td class="num">96.586</td>
+        <td class="num">0.004</td>
+        <td class="num">-1.525</td>
+    </tr>
+        <tr>
+        <td rowspan="3">5</td>
+        <td rowspan="2">p4</td>
+        <td class="num">1319081.570</td>
+        <td class="num">11°55'49.98240"</td>
+        <td class="num">0.003</td>
+        <td class="num">-4.638</td>
+        <td class="num">Base:p1</td>
+        <td class="num">0.005</td>
+        <td class="num">10.0</td>
+        <td class="num">Fijo</td>
+        <td class="num">1.800</td>
+        <td rowspan="3" class="num">5</td>
+    </tr>
+
+    <tr>
+        <td class="num">611906.458</td>
+        <td class="num">-85°58'20.34981"</td>
+        <td class="num">0.003</td>
+        <td class="num">8.126</td>
+        <td class="num" rowspan="2">9.492</td>
+        <td class="num" rowspan="2">1.006</td>
+        <td class="num" rowspan="2">26</td>
+        <td class="num" rowspan="2">2</td>
+        <td class="num" rowspan="2">2026/01/14 04:10:46 PM</td>
+    </tr>
+
+    <tr>
+        <td>calejon</td>
+        <td class="num">90.857</td>
+        <td class="num">96.507</td>
+        <td class="num">0.005</td>
+        <td class="num">-1.604</td>
+    </tr>
+        <tr>
+        <td rowspan="3">6</td>
+        <td rowspan="2">p5</td>
+        <td class="num">1319081.489</td>
+        <td class="num">11°55'49.98028"</td>
+        <td class="num">0.002</td>
+        <td class="num">-4.719</td>
+        <td class="num">Base:p1</td>
+        <td class="num">0.004</td>
+        <td class="num">10.0</td>
+        <td class="num">Fijo</td>
+        <td class="num">1.800</td>
+        <td rowspan="3" class="num">5</td>
+    </tr>
+
+    <tr>
+        <td class="num">611902.261</td>
+        <td class="num">-85°58'20.48856"</td>
+        <td class="num">0.002</td>
+        <td class="num">3.928</td>
+        <td class="num" rowspan="2">6.278</td>
+        <td class="num" rowspan="2">1.026</td>
+        <td class="num" rowspan="2">28</td>
+        <td class="num" rowspan="2">1</td>
+        <td class="num" rowspan="2">2026/01/14 04:11:03 PM</td>
+    </tr>
+
+    <tr>
+        <td>punto</td>
+        <td class="num">91.152</td>
+        <td class="num">96.802</td>
+        <td class="num">0.004</td>
+        <td class="num">-1.308</td>
+    </tr>
+        <tr>
+        <td rowspan="3">7</td>
+        <td rowspan="2">p6</td>
+        <td class="num">1319080.575</td>
+        <td class="num">11°55'49.95304"</td>
+        <td class="num">0.002</td>
+        <td class="num">-5.633</td>
+        <td class="num">Base:p1</td>
+        <td class="num">0.004</td>
+        <td class="num">10.0</td>
+        <td class="num">Fijo</td>
+        <td class="num">1.800</td>
+        <td rowspan="3" class="num">5</td>
+    </tr>
+
+    <tr>
+        <td class="num">611881.362</td>
+        <td class="num">-85°58'21.17950"</td>
+        <td class="num">0.002</td>
+        <td class="num">-16.970</td>
+        <td class="num" rowspan="2">17.898</td>
+        <td class="num" rowspan="2">1.120</td>
+        <td class="num" rowspan="2">27</td>
+        <td class="num" rowspan="2">1</td>
+        <td class="num" rowspan="2">2026/01/14 04:11:51 PM</td>
+    </tr>
+
+    <tr>
+        <td>punto</td>
+        <td class="num">91.665</td>
+        <td class="num">97.315</td>
+        <td class="num">0.004</td>
+        <td class="num">-0.795</td>
+    </tr>
+        <tr>
+        <td rowspan="3">8</td>
+        <td rowspan="2">p7</td>
+        <td class="num">1319090.401</td>
+        <td class="num">11°55'50.27274"</td>
+        <td class="num">0.002</td>
+        <td class="num">4.193</td>
+        <td class="num">Base:p1</td>
+        <td class="num">0.004</td>
+        <td class="num">10.0</td>
+        <td class="num">Fijo</td>
+        <td class="num">1.800</td>
+        <td rowspan="3" class="num">5</td>
+    </tr>
+
+    <tr>
+        <td class="num">611882.458</td>
+        <td class="num">-85°58'21.14207"</td>
+        <td class="num">0.002</td>
+        <td class="num">-15.874</td>
+        <td class="num" rowspan="2">16.463</td>
+        <td class="num" rowspan="2">0.966</td>
+        <td class="num" rowspan="2">28</td>
+        <td class="num" rowspan="2">2</td>
+        <td class="num" rowspan="2">2026/01/14 04:12:31 PM</td>
+    </tr>
+
+    <tr>
+        <td>punto</td>
+        <td class="num">91.251</td>
+        <td class="num">96.901</td>
+        <td class="num">0.004</td>
+        <td class="num">-1.209</td>
+    </tr>
+        <tr>
+        <td rowspan="3">9</td>
+        <td rowspan="2">p8</td>
+        <td class="num">1319091.552</td>
+        <td class="num">11°55'50.30770"</td>
+        <td class="num">0.002</td>
+        <td class="num">5.344</td>
+        <td class="num">Base:p1</td>
+        <td class="num">0.004</td>
+        <td class="num">10.0</td>
+        <td class="num">Fijo</td>
+        <td class="num">1.800</td>
+        <td rowspan="3" class="num">5</td>
+    </tr>
+
+    <tr>
+        <td class="num">611903.368</td>
+        <td class="num">-85°58'20.45075"</td>
+        <td class="num">0.002</td>
+        <td class="num">5.035</td>
+        <td class="num" rowspan="2">7.565</td>
+        <td class="num" rowspan="2">0.987</td>
+        <td class="num" rowspan="2">29</td>
+        <td class="num" rowspan="2">2</td>
+        <td class="num" rowspan="2">2026/01/14 04:13:10 PM</td>
+    </tr>
+
+    <tr>
+        <td>punto</td>
+        <td class="num">90.639</td>
+        <td class="num">96.289</td>
+        <td class="num">0.004</td>
+        <td class="num">-1.821</td>
+    </tr>
+    
+</table>
+
+<h3>5. Punto PPP </h3>
+<table class="properties list" cellspacing="0" cellpadding="0" border="0">
+
+    <tr>
+        <th>ID</th>
+        <th>Nombre de punto</th>
+        <th class="num">N/E/Z</th>
+        <th class="num">B/L/H</th>
+        <th class="num">Precisión<br>N/E/Z</th>
+        <th class="num">A base<br>N/E/Z</th>
+        <th class="num">Nombre Base/<br>A base</th>
+        <th class="num">RMS/<br>PDOP</th>
+        <th class="num">Satélite<br>Máscara de elevación/<br>Número</th>
+        <th class="num">Tipo de solución/<br>Latencia</th>
+        <th class="num">Altura de antena/<br>Hora final</th>
+        <th class="num">Número de mediciones</th>
+    </tr>
+        <tr>
+        <td colspan="12">No hay datos</td>
+    </tr>
+    
+</table>
+
+<p class="app"><br><br>- End -</p>
+</body>
+</html>
