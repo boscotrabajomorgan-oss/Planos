@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="entities" id="entities">
+	<SimpleField name="Layer" type="string"></SimpleField>
+	<SimpleField name="PaperSpace" type="int"></SimpleField>
+	<SimpleField name="SubClasses" type="string"></SimpleField>
+	<SimpleField name="Linetype" type="string"></SimpleField>
+	<SimpleField name="EntityHandle" type="string"></SimpleField>
+	<SimpleField name="Text" type="string"></SimpleField>
+</Schema>
+<Folder><name>entities</name>
+  <Placemark>
+	<Style><LineStyle><color>FF000000</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#entities">
+		<SimpleData name="Layer">0</SimpleData>
+		<SimpleData name="SubClasses">AcDbEntity:AcDbPolyline</SimpleData>
+		<SimpleData name="Linetype">Continuous</SimpleData>
+		<SimpleData name="EntityHandle">1BEEE</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-85.9823696039847,11.9415874796069 -85.9823656221333,11.941693961755 -85.9824096983727,11.9416943925313 -85.9824070383801,11.9416689745718 -85.9825058861531,11.9416639347716 -85.9825092332112,11.9415923593907 -85.9823696039847,11.9415874796069</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>
