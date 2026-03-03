@@ -1,0 +1,200 @@
+<!--survey report-->
+<html>
+<head>
+    <title>Reporte HTML</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+
+<style>
+    p,h1,h2{padding:0px;margin:0px}
+    body{
+        width: 90%;
+        margin: 0px auto;
+        padding: 10px 20px
+    }
+    h1,h2{
+        margin:10px 0px 5px 0px;
+        text-align: center;
+    }
+
+    h3,h4{
+        margin:8px 0px 4px 0px;
+    }
+
+    .app{
+        padding:5px 0px;
+        text-align:right;
+        border-bottom:1px solid #888888;
+    }
+
+    .properties{width: 100%}
+    .properties th { text-align:left; background-color: whitesmoke;  }
+    .properties td { }
+    .properties td, .properties th
+      { padding: 2px 3px 2px 3px; border-bottom: 1px solid #888888; }
+
+     .row td, .row.th{
+        padding: 2px;
+     }
+
+     .row td:nth-child(1){width: 200px}
+     .row td:nth-child(2){font-style:oblique;}
+
+     .coo{
+        margin-top:5px;
+     }
+
+     .b{
+        margin-top:10px;
+     }
+     .pp, .bt{
+        width:55%;
+     }
+
+     .num{text-align:right !important;}
+
+
+</style>
+
+<h1>Reporte HTML</h1>
+<p class="app">Survey Master:&nbsp;V3.4.1.0</p>
+<h3>1. Info Proyecto</h3>
+<table class="row" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td>Proyecto:</td>
+        <td>ocotal</td>
+    </tr>
+        <tr>
+        <td>Topógrafo:</td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>Descripción:</td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>Zona:</td>
+        <td>GMT-06:00</td>
+    </tr>
+        <tr>
+        <td>Exportar unidad de longitud:</td>
+        <td>m</td>
+    </tr>
+        <tr>
+        <td>Fecha de creación:</td>
+        <td>2025/08/01 01:00:49 PM</td>
+    </tr>
+    </table>
+
+<h3>2. datum</h3>
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td>datum:</td>
+        <td>UTM_WGS84_Z16</td>
+    </tr>
+        <tr>
+        <td>Usar un modelo geoidal:</td>
+        <td>Sí</td>
+    </tr>
+    </table>
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td>a:</td>
+        <td>6378137.000</td>
+    </tr>
+        <tr>
+        <td>1/f:</td>
+        <td>298.257223563000</td>
+    </tr>
+    </table>
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td>Proyección:</td>
+        <td>UTM</td>
+    </tr>
+        <tr>
+        <td>Zona:</td>
+        <td>16</td>
+    </tr>
+        <tr>
+        <td>Hemisferio:</td>
+        <td>N</td>
+    </tr>
+        <tr>
+        <td>Altura del proyecto:</td>
+        <td>0.000</td>
+    </tr>
+    </table>
+
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td>Usar 7 parámetros:</td>
+        <td>No</td>
+    </tr>
+</table>
+
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td>Corrección de plano:</td>
+        <td>No</td>
+    </tr>
+</table>
+
+<table class="row coo" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td>Ajuste de altura:</td>
+        <td>No</td>
+    </tr>
+</table>
+
+<h3>
+    3. Par de puntos de calibración de sitio
+</h3>
+<table class="properties list pp" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <th>Nombre de punto</th>
+        <th class="num">N/E/Z</th>
+        <th class="num">B/L/H</th>
+        <th class="num">Usar horizontal/<br>H.Resid</th>
+        <th class="num">Usar vertical/<br/>V.Resid</th>
+    </tr>
+
+    <tr>
+        <td colspan="5">No hay datos</td>
+    </tr>
+    
+</table>
+
+
+<h3>4. Punto Con Base</h3>
+
+
+<h3>5. Punto PPP </h3>
+<table class="properties list" cellspacing="0" cellpadding="0" border="0">
+
+    <tr>
+        <th>ID</th>
+        <th>Nombre de punto</th>
+        <th class="num">N/E/Z</th>
+        <th class="num">B/L/H</th>
+        <th class="num">Precisión<br>N/E/Z</th>
+        <th class="num">A base<br>N/E/Z</th>
+        <th class="num">Nombre Base/<br>A base</th>
+        <th class="num">RMS/<br>PDOP</th>
+        <th class="num">Satélite<br>Máscara de elevación/<br>Número</th>
+        <th class="num">Tipo de solución/<br>Latencia</th>
+        <th class="num">Altura de antena/<br>Hora final</th>
+        <th class="num">Número de mediciones</th>
+    </tr>
+        <tr>
+        <td colspan="12">No hay datos</td>
+    </tr>
+    
+</table>
+
+<p class="app"><br><br>- End -</p>
+</body>
+</html>
